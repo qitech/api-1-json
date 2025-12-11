@@ -1,0 +1,28 @@
+{
+  "input": {
+    "workflow": {
+      "1": {
+        "inputs": {
+          "image": "1e2f719bb42368fcc1664bee1b244948a59a79dcd9e235f04f58e41f50038a46.jpeg"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "2": {
+        "inputs": {
+          "filename": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "image": [
+            "1",
+            0
+          ]
+        },
+        "class_type": "ddd8ed8f-4e51-4b13-8f4b-a8947e02c345",
+        "_meta": {
+          "title": "ddd8ed8f-4e51-4b13-8f4b-a8947e02c345"
+        }
+      }
+    }
+  }
+}
